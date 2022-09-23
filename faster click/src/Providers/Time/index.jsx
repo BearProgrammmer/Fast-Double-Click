@@ -10,7 +10,7 @@ export const TimeProvider = ({ children }) => {
   const [registers, setRegisters] = useState([]);
 
   const handleStart = () => {
-    setIsActive(!isActive);
+    setIsActive(isActive);
   };
 
   const handleReset = () => {
